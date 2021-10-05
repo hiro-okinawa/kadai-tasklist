@@ -54,4 +54,4 @@ production:
   pool: 5
   database: tasklist_production
   username: tasklist_board
-  password: <%= ENV['TASKLIST12345678_DATABASE_PASSWORD'] %>
+  password: <%= ENV['TASKLIST_DATABASE_PASSWORD'] %>
